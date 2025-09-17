@@ -1,111 +1,333 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Infopost NeMe – Herbst 2025</title>
-<style>
-body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-.container { max-width: 900px; margin: auto; padding: 30px; background: #fff; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);}
-h1 { font-size: 28px; margin-bottom: 20px; color: #1a1a1a;}
-h2 { font-size: 24px; margin-top: 30px; margin-bottom: 15px; color: #1a1a1a;}
-h3 { font-size: 18px; margin-top: 20px; margin-bottom: 10px; color: #1a1a1a;}
-p { margin: 10px 0;}
-ul { margin: 10px 0 10px 20px; }
-li { margin: 5px 0;}
-a { color: #0078d4; text-decoration: none;}
-a:hover { text-decoration: underline;}
-.highlight { background-color: #fff3cd; padding: 15px; border-left: 5px solid #ffc107; margin: 20px 0; }
-.footer { font-size: 14px; color: #555; margin-top: 40px; border-top: 1px solid #e0e0e0; padding-top: 15px;}
-.icon { margin-right: 5px;}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infopost – Neue Medien in der Jugendsozialarbeit (Herbst 2025)</title>
+  <!-- Font Awesome für Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* Grundlegende Stile für bessere Lesbarkeit */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    h1 {
+      text-align: center;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 10px;
+    }
+    h2 {
+      color: #2980b9;
+      margin-top: 30px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 5px;
+    }
+    /* Farbige Boxen für bessere Übersicht */
+    .box {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      border-left: 5px solid #3498db;
+    }
+    .box.warning {
+      border-left-color: #e74c3c;
+      background-color: #fffbf5;
+    }
+    .box.success {
+      border-left-color: #27ae60;
+      background-color: #f5fff8;
+    }
+    .box.info {
+      border-left-color: #f39c12;
+      background-color: #fffef5;
+    }
+    /* Hervorhebungen */
+    .highlight {
+      background-color: #fffde7;
+      padding: 2px 4px;
+      border-radius: 3px;
+      font-weight: bold;
+    }
+    /* Buttons und Links */
+    .btn {
+      display: inline-block;
+      background-color: #3498db;
+      color: white;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-radius: 4px;
+      margin: 5px 0;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background-color: #2980b9;
+    }
+    /* Icons */
+    .icon {
+      margin-right: 8px;
+      color: #3498db;
+    }
+    /* Veranstaltungen formatieren */
+    .event {
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #fefefe;
+      border-radius: 4px;
+      border-left: 3px solid #e0e0e0;
+    }
+    .date {
+      font-weight: bold;
+      color: #e74c3c;
+      margin-bottom: 5px;
+    }
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #7f8c8d;
+      border-top: 1px solid #eee;
+      padding-top: 20px;
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-<h1>Infopost aus der Berliner Fachstelle „Neue Medien in der Jugendsozialarbeit“</h1>
+  <!-- Header mit Titel -->
+  <h1>
+    <i class="fas fa-envelope icon"></i>
+    Infopost aus der Berliner Fachstelle „Neue Medien in der Jugendsozialarbeit“
+  </h1>
 
-<p>Liebe Kolleg*innen,</p>
-<p>Ein durchwachsener Sommer geht zu Ende – und es gibt viel Neues aus der Arbeit mit digitalen & hybriden Lebenswelten Jugendlicher!</p>
-<p>Als neues Format bieten wir Euch hiermit ein kuratiertes Info-Mailing rund um neue Medien in der Jugendsozialarbeit mit Schwerpunkt auf Prävention von Gewalt, Extremismus und Radikalisierung im digitalen Raum an. Als Fachstelle „NeMe“ haben wir aktuell nur eine kurze Laufzeit bis zum Jahresende 2025 – daher bündeln wir hier nicht nur unsere eigenen Angebote, sondern zeigen Euch auch externe Möglichkeiten zum Lernen, Reflektieren und Weiterarbeiten.</p>
+  <!-- Einleitung -->
+  <div class="box info">
+    <p>Liebe Kolleg*innen,</p>
+    <p>ein durchwachsener Sommer geht zu Ende – und es gibt viel Neues <strong>aus der</strong> und <strong>für die</strong> Arbeit mit und in digitalen & hybriden Lebenswelten Jugendlicher!</p>
+    <p>Als neues Format bieten wir Euch und Ihnen hiermit ein kuratiertes Info-Mailing rund um neue Medien in der Jugendsozialarbeit mit einem Schwerpunkt auf Prävention von Gewalt, Extremismus und Radikalisierung im digitalen Raum an. Als Fachstelle „NeMe“ haben wir aktuell nur eine kurze Laufzeit bis zum Jahresende 2025 – daher bündeln wir hier nicht nur unsere eigenen Angebote, sondern zeigen Euch auch externe Möglichkeiten zum Lernen, Reflektieren und Weiterarbeiten.</p>
+    <p class="highlight">
+      +++Um zu sehen, ob dieses Format Euch interessiert, haben wir „Lesebestätigung anfordern“ im Mailprogramm aktiviert. Wir möchten damit auswerten, ob sich ein Infomailing lohnt. Wir freuen uns daher auch über Eure (ehrliche) Rückmeldung, ob ihr diese Mail relevant / interessant fandet und was Euch (nicht) gefallen hat. +++
+    </p>
+  </div>
 
-<div class="highlight">
-📌 Um zu sehen, ob Euch dieses Format interessiert, haben wir „Lesebestätigung anfordern“ im Mailprogramm aktiviert. Wir freuen uns über Eure (ehrliche) Rückmeldung, ob ihr diese Mail relevant / interessant fandet und was Euch (nicht) gefallen hat.
-</div>
+ <!-- Inhaltsverzeichnis mit Sprungmarken -->
+  <div id="toc" class="box">
+    <h2><i class="fas fa-list icon"></i> Inhaltsverzeichnis</h2>
+    <ul>
+      <li><a href="#praxiswissen">1. Praxiswissen</a></li>
+      <li><a href="#lunch-talks">2. „NeMe“ – Lunch Talks und Workshop im Herbst 2025</a></li>
+      <li><a href="#aku-labor">3. AKU-digital-Labor: Eigene Projekte umsetzen</a></li>
+      <li><a href="#veranstaltungen">4. Externe Veranstaltungen im Herbst 2025</a></li>
+      <li><a href="#kontakt">Kontakt & Feedback</a></li>
+    </ul>
+  </div>
 
-<h2>Inhalt</h2>
-<ul>
-<li>Praxiswissen</li>
-<li>„NeMe“ – Lunch Talks und Workshop im Herbst 2025: Input und Austausch für Fachkräfte</li>
-<li>AKU-digital-Labor: Eigene praktische Erfahrungen sammeln</li>
-<li>Veranstaltungsempfehlungen im Herbst 2025</li>
-</ul>
+  <!-- Praxiswissen: Padlet -->
+  <div class="box success">
+    <h2><i class="fas fa-bookmark icon"></i> PRAXISWISSEN</h2>
+    <h3><i class="fas fa-link icon"></i> Neue Einträge im Padlet: Ressourcensammlung erweitert > zusätzliches Thema „Islamistischer Extremismus“</h3>
+    <p>Einige von Euch / Ihnen kennen unser Padlet schon: Ab sofort finden sich in unserem Wissensspeicher „Digitale Arbeit in der Jugendsozialarbeit – Ressourcen & Arbeitshilfen“ neue hilfreiche Materialien, Tools und Links für Eure tägliche Arbeit. Die Sammlung bietet praxisnahe Unterstützung rund um digitale Medien und digitale Methoden, Rechtliches, medienpädagogische Ansätze sowie digitale Gewalt und Radikalisierungsprävention und sind passgenau für das Feld der Jugendsozialarbeit ausgewählt.</p>
+    <p>Neben allgemeinen Aktualisierungen und Aufräumarbeiten haben wir mit „2.3 Islamismus/ Salafismus“ eine komplett neue Spalte ergänzt, die zusätzlich zu Grundlagenwissen zum Thema auch Projektbeispiele zur Islamismusprävention im digitalen Raum und eine Übersicht zu Informations- & Beratungsstellen sowie Weiterbildungsangeboten zu Islamismus und Salafismus – mit einem Schwerpunkt auf digitale Medien bietet.</p>
+    <p>
+      <i class="fas fa-external-link-alt icon"></i>
+      <a href="https://padlet.com/MinorBerlin/digitale-arbeit-in-der-jugendsozialarbeit-ressourcen-5jiur1a5ilikhqpd" class="btn">Direkt zum Padlet</a>
+    </p>
+    <p><span class="highlight">Methoden-Tipp:</span> in der 1. Spalte des Padlets findet ihr Hinweise zum Aufbau und zur Nutzung des Padlets!</p>
+  </div>
 
-<h2>1. PRAXISWISSEN</h2>
+  <!-- Jugendnetz Berlin -->
+  <div class="box">
+    <h3><i class="fas fa-calendar-alt icon"></i> Medienpädagogische Angebote für Kinder, Jugendliche, Eltern und Fachkräfte in Berlin: Jugendnetz Berlin</h3>
+    <p>Das Berliner Landesprogramm zur Medienkompetenz von Kindern, Jugendlichen, Eltern und Fachkräften bündelt viele Angebote und Informationen, die auch für Jugendsozialarbeiter*innen interessant sein können. Besonders der Veranstaltungskalender ist eine tolle Ressource, um sich über die Angebote der Berliner Medienkompetenzzentren und anderen Akteur*innen zu verschaffen: hier findet ihr sowohl Ferienkurse, AGs, Hackathons und andere Angebote zur (technischen, kreativen, politischen oder erforschenden) Mediennutzung für Jugendliche und Kinder als auch Fortbildungsangebote für Fachkräfte oder Informationsveranstaltungen für Eltern. Darüber hinaus gibt es thematische Fachbeiträge aus allen medienpädagogischen Aktivitätsbereichen.</p>
+    <p>
+      <i class="fas fa-external-link-alt icon"></i>
+      <a href="https://jugendnetz.berlin/jn/veranstaltungen/" class="btn">Link zum Terminkalender von Jugendnetz</a>
+    </p>
+  </div>
 
-<h3>📌 Neue Einträge im Padlet</h3>
-<p>Einige von Euch kennen unser Padlet schon: Ab sofort finden sich im Wissensspeicher <strong>„Digitale Arbeit in der Jugendsozialarbeit – Ressourcen & Arbeitshilfen“</strong> neue hilfreiche Materialien, Tools und Links für Eure tägliche Arbeit. Die Sammlung bietet praxisnahe Unterstützung rund um digitale Medien und digitale Methoden, Rechtliches, medienpädagogische Ansätze sowie digitale Gewalt und Radikalisierungsprävention.</p>
+  <!-- Lunch Talks & Workshop -->
+  <div class="box warning">
+    <h2><i class="fas fa-video icon"></i> „NeMe“-LUNCH TALKS & WORKSHOP</h2>
+    <p>Als Weiterführung der Fachstelle „Digitale Methoden der (aufsuchenden) Jugendsozialarbeit gibt es auch diese Herbst (Lunch-)Talks der Fachstelle „Neue Medien in der Jugendsozialarbeit“ (NeMe) im Herbst 2025</p>
+    <p><i class="fas fa-arrow-right icon"></i> Die Lunch-Talks sind <strong>45-minütige Kurzformate</strong>: ein kompakter Input – anschließend Raum für Fragen, Austausch und Praxisbezug für Jugendsozialarbeiter*innen, insbes. aus der außerschulischen Arbeit.</p>
+    <p><i class="fas fa-arrow-right icon"></i> Zusätzlich gibt es diesen Herbst auch <strong>einen zweistündigen Workshop</strong> mit Götz Nordbruch (ufuq e. V.) <strong>zu islamistischem Extremismus in sozialen Medien – und Handlungsmöglichkeiten für Jugendsozialarbeiter*innen</strong>.</p>
+    <p>Damit knüpfen wir an die „TikTok-Extreme“-Reihe des Jahres 2024 des Projekts Digitale Methoden der (aufsuchenden) Jugendsozialarbeit [DiMe] an (siehe dazu auch die Dokumentationen und Handreichungen auf unserer Website).</p>
+    <p><span class="highlight">Die kommenden (Lunch-)Talks 2025 widmen sich den folgenden Themen:</span></p>
 
-<p>Neben allgemeinen Aktualisierungen haben wir mit <strong>„2.3 Islamismus/Salafismus“</strong> eine neue Spalte ergänzt, die Grundlagenwissen, Projektbeispiele zur Islamismusprävention im digitalen Raum und eine Übersicht zu Informations- & Beratungsstellen bietet.</p>
+    <!-- Veranstaltungen als Boxen -->
+    <div class="event">
+      <p class="date">Mi, 24.09.2025 | 11:30–12:15</p>
+      <p><strong>[DigitaleGewalt]</strong> Wie kann digitale Gewalt aussehen und was sind Aufgaben der Jugendsozialarbeit?</p>
+      <p><i class="fas fa-bomb icon"></i> Kurzer Überblick über Formen digitaler Gewalt und die Frage, welche Aufgaben sich für die Jugendsozialarbeit ergeben sowie Möglichkeiten der weiteren Vertiefung</p>
+    </div>
 
-<p>📌 Direkt zum Padlet: <a href="https://padlet.com/MinorBerlin/digitale-arbeit-in-der-jugendsozialarbeit-ressourcen-5jiur1a5ilikhqpd">Padlet-Link</a></p>
+    <div class="event">
+      <p class="date">Do, 09.10.2025 | 10:00–12:00</p>
+      <p><strong>[Islamismus]</strong> Islamistisch-extremistische Akteure, Narrative und Strategien in sozialen Medien</p>
+      <p><i class="fas fa-exclamation-triangle icon"></i> Praktische Einblicke in islamistische Inhalte auf Social Media und Austausch: Wie gehe ich in der Praxis damit um? <span class="highlight">Achtung: zweistündiger Workshop!</span></p>
+    </div>
 
-<h3>Medienpädagogische Angebote – Jugendnetz Berlin</h3>
-<p>Das Berliner Landesprogramm bündelt viele Angebote und Informationen für Fachkräfte und Interessierte. Besonders der Veranstaltungskalender ist eine tolle Ressource für Ferienkurse, AGs, Hackathons, Fortbildungen und Elterninfos.</p>
-<p>🔗 Link zum Terminkalender: <a href="https://jugendnetz.berlin/jn/veranstaltungen/">https://jugendnetz.berlin/jn/veranstaltungen/</a></p>
+    <div class="event">
+      <p class="date">Di, 04.11.2025 | 11:30–12:15</p>
+      <p><strong>[Grundlagen]</strong> KI-Tools in der Jugendsozialarbeit einsetzen – wie und wofür?</p>
+      <p><i class="fas fa-robot icon"></i> Praktische Beispiele, wie KI-Tools den Arbeitsalltag für Jugendsozialarbeiter*innen in ihrer Arbeit mit Jugendlichen erleichtern können – mit Raum für Fragen und zum Ausprobieren.</p>
+    </div>
 
-<h2>2. „NeMe“-Lunch Talks & Workshop</h2>
-<p>Die Lunch-Talks sind 45-minütige Kurzformate: kompakter Input mit anschließendem Austausch. Zusätzlich gibt es einen zweistündigen Workshop zu islamistischem Extremismus in sozialen Medien.</p>
+    <div class="event">
+      <p class="date">Mi, 19.11.2025 | 11:30 – 12:15</p>
+      <p><strong>[DigitaleGewalt]</strong> COMs und der Fall „764“ – Onlinegruppen, die zur Anstiftung von selbstverletzendem Verhalten und Cybergrooming dienen</p>
+      <p><i class="fas fa-skull icon"></i> Organisierte Manipulation Minderjähriger im digitalen Raum: Der Fall „White Tiger“ und das Netzwerk „764“: Wie kann ich erkennen, dass „meine“ Jugendlichen von derartiger digitaler Gewalt betroffen sind? Wie kann ich präventiv und intervenierend damit umgehen?</p>
+    </div>
 
-<h3>💥 Kommende Talks 2025:</h3>
-<ul>
-<li>Mi, 24.09.2025 | 11:30–12:15: [DigitaleGewalt] Wie kann digitale Gewalt aussehen und was sind Aufgaben der Jugendsozialarbeit?</li>
-<li>Do, 09.10.2025 | 10:00–12:00: [Islamismus] Islamistisch-extremistische Akteure, Narrative und Strategien in sozialen Medien (Workshop)</li>
-<li>Di, 04.11.2025 | 11:30–12:15: [Grundlagen] KI-Tools in der Jugendsozialarbeit einsetzen – wie und wofür?</li>
-<li>Mi, 19.11.2025 | 11:30–12:15: [DigitaleGewalt] COMs und der Fall „764“ – Onlinegruppen, die zur Anstiftung von selbstverletzendem Verhalten und Cybergrooming dienen</li>
-</ul>
-<p>📌 Zoom-Link: <a href="https://eu01web.zoom.us/j/65183953092?pwd=GO50kLaOX17ZR86zd1t7aNOxGZGm8M.1">Hier klicken</a></p>
+    <p><span class="highlight">Anmeldung:</span> Für eine bessere Planung bitten wir um eine kurze, unverbindliche Anmeldung. Ein Flyer mit allen Infos findet sich im Anhang und online. Die Einladung darf gern an interessierte Kolleg*innen weitergeleitet werden. Wir freuen uns über Rückfragen, Fragen zu den angekündigten Themen und auf Eure und Ihre Teilnahme!</p>
+    <p>Eine Teilnahme ist aber auch spontan ohne Anmeldung möglich. Alle Lunch-Talks finden online über Zoom* statt – der Zugangslink bleibt dabei immer gleich:</p>
+    <p>
+      <i class="fas fa-video icon"></i>
+      <a href="https://eu01web.zoom.us/j/65183953092?pwd=GO50kLaOX17ZR86zd1t7aNOxGZGm8M.1" class="btn">NeMe-Lunch Talks Zuganglink</a>
+    </p>
+  </div>
 
-<h2>3. AKU-digital-Labor</h2>
-<p>Ein Raum zum Ausprobieren neuer Wege in digitalen Räumen für Berliner Jugendsozialarbeiter*innen. Fachlich begleitet von „NeMe“ könnt ihr von Oktober bis Dezember 2025 eigene Projekte umsetzen – z. B. digitale Kummerkästen, TikTok- oder Instagram-Reels oder andere Formate.</p>
-<p>Ziel: neue Ansprache-, Kontakt- und Unterstützungsformate entwickeln und evaluieren. Fachliche Begleitung durch Fabian Reichert und NeMe-Team.</p>
-<p>Laufzeit: Oktober–Dezember 2025 | Auftaktworkshop vsl. 13. oder 14. Oktober | regelmäßige Treffen & Reflexion</p>
+  <!-- AKU-digital-Labor -->
+  <div class="box success">
+    <h2><i class="fas fa-flask icon"></i> Eigene praktische Erfahrungen sammeln und verbessern im AKU-digital-Labor</h2>
+    <h3>Was ist das AKU-digital Labor?</h3>
+    <p>Kurz gesagt: ein Raum zum Ausprobieren neuer Wege in digitalen Räumen für Berliner Jugendsozialarbeiter*innen.</p>
+    <p>Fachlich durch die Projektmitarbeitenden von “NeMe” begleitet, könnt ihr von Oktober - einschl. Dezember 2025 ein eigenes Projekt umsetzen, das digitale Tools und/ oder Medien für die aufsuchende Soziale Arbeit mit Jugendlichen nutzt.</p>
+    <p>Ob das die Einrichtung eines “Digitalen Kummerkastens” oder das Konzipieren und Filmen von TikTok- oder Instagram-Reels mit “Euren” Jugendlichen ist - oder etwas ganz anderes - erarbeiten wir gemeinsam in unserem Labor. Auch die Reflexion und Auswertung sind wichtig - darum kümmern wir uns ebenfalls zusammen in den regelmäßigen Treffen und erarbeiten so Anwendungsempfehlungen für Euch, Eure Kolleg*innen und andere Fachkräfte.</p>
 
-<h2>4. VERANSTALTUNGEN Herbst 2025</h2>
-<p>Auswahl relevanter Online- & Präsenzveranstaltungen:</p>
+    <h3>Ziel</h3>
+    <p>Ihr als Fachkräfte setzt neue <strong>A</strong>nsprache-, <strong>K</strong>ontakt- und/ oder <strong>U</strong>nterstützungsformate in <strong>digital</strong>en Räumen mit “Euren” Jugendlichen bzw. Eurer Zielgruppe um und/ oder entwickelt diese weiter. Während und nach der Umsetzung tauschen wir uns gemeinsam darüber aus, wie, warum und in welcher Hinsicht die erprobten Formate für Euch (nicht) funktioniert haben. Uns steht Fabian Reichert zur Seite – ein Kollege aus Streetwork & geschlechtersensibler Jugendsozialarbeit sowie aus der Deradikalisierungsarbeit, der schon viele Formate auf Youtube, TikTok & co. mit Jugendlichen und Kolleg*innen umgesetzt hat.</p>
 
-<h3>📅 September</h3>
-<ul>
-<li>16.09., 15:00–17:30: Medienpädagogischer Küchentalk #14 – hybrid, Livestream möglich</li>
-<li>24.09., 11:30–12:15: NeMe-Lunch Talk [DigitaleGewalt]</li>
-</ul>
+    <h3>Zeitliche & konzeptionelle Rahmung</h3>
+    <ul>
+      <li>Laufzeit: Oktober bis einschl. Dezember 2025 (Auftaktworkshop vsl. am 13. Oder 14. Oktober)</li>
+      <li>regelmäßige Treffen (Planung, Austausch, Reflexion)</li>
+      <li>fachliche Begleitung durch uns sowie bedarfsbezogene externe Beratung</li>
+    </ul>
 
-<h3>📅 Oktober</h3>
-<ul>
-<li>07.10.–diverse Termine: Weiterbildung Medienberatung in der Kinder- und Jugendhilfe</li>
-<li>07.10., 09:00–16:45: Fachtag Medienkompetenz „Keine Likes für Lügen!“</li>
-<li>08.10., 09:30–16:00: Digitaler Fachtag „Digitales Aufwachsen begleiten“</li>
-<li>08.10., 18:30–20:00: Digitale Veranstaltung „Scrollen in die Radikalisierung?“</li>
-<li>09.10., 10:00–12:00: NeMe-Workshop [Islamismus]</li>
-<li>16.10., 09:00–16:30: Berliner Präventionstag 2025</li>
-</ul>
+    <h3>An wen richtet sich das Angebot?</h3>
+    <p>An interessierte Berliner Fachkräfte der (aufsuchenden) Jugendsozialarbeit, die min. ca. 2h/ Woche Zeit (inkl. Umsetzungszeit mit bzw. für die eigenen Jugendlichen) und die grundsätzliche Möglichkeit haben, min. 1 Social Media-Plattform und/oder Messenger zu nutzen</p>
 
-<h3>📅 November</h3>
-<ul>
-<li>04.11., 11:30–12:15: NeMe-Lunch Talk [KI-Tools]</li>
-<li>05.11., 15:00–16:00: Online-Veranstaltung „Radikalisierung im Netz“ (NRW)</li>
-<li>06.11., 19:00–20:00: Online-Workshop „Social Media und Bodyshaming“</li>
-<li>18.+20.11., 09:00–13:00: Fortbildung „Digitale Kommunikation mit jungen Menschen“</li>
-<li>19.11., 11:30–12:15: NeMe-Lunch Talk [DigitaleGewalt]</li>
-</ul>
+    <h3>Interesse geweckt?</h3>
+    <p>Dann füllt <span class="highlight">bis zum 26.09.25 diese Abfrage</span> aus.</p>
+    <p>Wir werten diese nach Ende der Frist aus und melden uns <span class="highlight">Ende September</span> zur Absprache der nächsten Schritte bei Euch.</p>
+    <p><span class="highlight">Das Angebot ist für Berliner Fachkräfte der Jugendsozialarbeit kostenfrei.</span></p>
+  </div>
 
-<p>Die Auswahl stellt keine Bewertung dar – lediglich relevante Angebote für digitale Arbeit in der Jugendsozialarbeit.</p>
+  <!-- Externe Veranstaltungen -->
+  <div class="box">
+    <h2><i class="fas fa-calendar-check icon"></i> EXTERNE VERANSTALTUNGEN im Herbst 2025</h2>
+    <p>Neben unseren Lunch Talks finden im Herbst 2025 bundesweit einige Veranstaltungen zu den Querschnittsthemen der Neuen Medien in der Jugendsozialarbeit statt, die wir Euch ebenfalls sehr ans Herz legen können.</p>
+    <p>Die meisten der gelisteten Veranstaltungen finden online statt, die Präsenzformate darunter alle in Berlin. Findet Ihr keinen gegenteiligen Hinweis, ist die Teilnahme an den Angeboten kostenfrei und/oder ohne Anmeldung möglich.</p>
 
-<p>Mit herzlichen Grüßen<br>Noah & Laura</p>
+    <h3>September</h3>
+    <div class="event">
+      <p class="date">16. September, 15:00-17:30</p>
+      <p><strong>Medienpädagogischer Küchentalk:</strong> Zwischen Nutzungsrealität, Jugendschutz & Kinderrechten – Warum es differenzierte Nutzungskonzepte statt pauschaler Verbotsdebatten braucht</p>
+      <p><i class="fas fa-map-marker-alt icon"></i> hybrid | Teilnahme ohne Anmeldung via Livestream möglich, auch im Nachhinein verfügbar</p>
+      <p><i class="fas fa-link icon"></i> <a href="https://www.fsm.de/event/kuechentalk14/">Medienpädagogischer Küchentalk #14</a></p>
+    </div>
+    <div class="event">
+      <p class="date">24.09.2025 | 11:30–12:15</p>
+      <p><strong>[DigitaleGewalt]</strong> Wie kann digitale Gewalt aussehen und was sind Aufgaben der Jugendsozialarbeit? | NeMe-Lunchtalk – siehe oben!</p>
+    </div>
 
-<div class="footer">
-Projekt gefördert durch die Landeskommission Berlin gegen Gewalt und die Senatsverwaltung für Bildung, Jugend und Familie.<br>
-Bei Abmeldung: <a href="mailto:l.ballaschk@minor-kontor.de">l.ballaschk@minor-kontor.de</a>
-</div>
-</div>
+    <h3>Oktober</h3>
+    <div class="event">
+      <p class="date">Ab 7. Oktober 2025</p>
+      <p><strong>Weiterbildung:</strong> Medienberatung in der Kinder- und Jugendhilfe/ Erziehungshilfe | <span class="highlight">Achtung: Es wird eine Teilnahmegebühr (~1.100€ für alle Termine inkl. Tagesverpflegung) erhoben; Anmeldung via Link</span></p>
+      <p><i class="fas fa-calendar-alt icon"></i> Block 1: 06. – 07.10.2025 | 10:30 – 16:00<br>
+      Block 2: 03. – 04.11.2025 | 10:30 – 16:00<br>
+      Block 3: 01. – 02.12.2025 | 10:30 – 16:00<br>
+      Block 4: individuell vereinbart bei zertifizierter Konzepterstellung</p>
+      <p><i class="fas fa-link icon"></i> <a href="https://igfh.de/veranstaltungen/weiterbildungen/medienberatung-kinder-jugendhilfe-erziehungshilfe-3">Zertifikatskurs Medienberatung in der Kinder- und Jugendhilfe</a></p>
+    </div>
+    <div class="event">
+      <p class="date">7. Oktober 2025, 09:00 – 16:45</p>
+      <p><strong>Fachtag Medienkompetenz</strong> "Keine Likes für Lügen! Erkenne Extremismus, Populismus und Deepfakes im Netz“ in Kooperation mit Sen BJF, Fokus Medienbildung, bits 21, Wetek Berlin gGmbH und Jugendnetz Berlin | <span class="highlight">Achtung: Es wird eine Teilnahmegebühr von 30€ (inkl. Verpflegung) erhoben.</span></p>
+      <p><i class="fas fa-map-marker-alt icon"></i> SFBB, Königstraße 36b, 14109 Berlin</p>
+      <p><i class="fas fa-link icon"></i> <a href="https://jugendnetz.berlin/jn/Fachtag-MeKo-verbindet/2025/start.php">Fachtag Medienkompetenz verbindet 2025 jugendnetz berlin</a></p>
+    </div>
+    <div class="event">
+      <p class="date">8. Oktober 2025 09:30 – 16:00</p>
+      <p><strong>Digitaler Fachtag</strong> „Digitales Aufwachsen begleiten: Altersgerechter Schutz in der Kinder- und Jugendhilfe“</p>
+      <p><i class="fas fa-map-marker-alt icon"></i> Zoom | Anmeldung bis 24.09.25</p>
+      <p><i class="fas fa-link icon"></i> <a href="https://www.ajs-bw.de/media/files/ajs_digitales-aufwachsen_intpdf_final.pdf">ajs_digitales-aufwachsen_intpdf_final.pdf</a></p>
+    </div>
+    <div class="event">
+      <p class="date">8. Oktober 2025, 18:30 – 20:00</p>
+      <p><strong>Digitale Veranstaltung</strong> „Scrollen in die Radikalisierung? Radikale Online-Welten und ihre Wirkung auf Jugendliche“ | Veranstaltung der LpB NRW</p>
+      <p><i class="fas fa-map-marker-alt icon"></i> online | Anmeldung vorab per E-Mail nötig</p>
+      <p><i class="fas fa-link icon"></i> <a href="https://www.politische-bildung.nrw/veranstaltungen/detailseite?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=36&cHash=6a9d569be937b8b4755878f3759c371f">Scrollen in die Radikalisierung?</a></p>
+    </div>
+    <div class="event">
+      <p class="date">09.10.2025 | 10:00–12:00</p>
+      <p><strong>[Islamismus]</strong> Islamistisch-extremistische Akteure, Narrative und Strategien in sozialen Medien | NeMe-Workshop – siehe oben!</p>
+    </div>
+    <div class="event">
+      <p class="date">16. Oktober 2025, 9:00 – 16:30</p>
+      <p><strong>Berliner Präventionstag 2025:</strong> Digitaler Raum und Gewalt – Für eine lebendige Demokratie und gesellschaftlichen Zusammenhalt im Internet</p>
+      <p><i class="fas fa-map-marker-alt icon"></i> Z/KU Zentrum für Kunst und Urbanistik, Siemensstraße 27, 10551 Berlin | Um Anmeldung wird gebeten / diese öffnet voraussichtlich Mitte September</p>
+      <p><i class="fas fa-link icon"></i> <a href="https://www.berlin.de/lb/lkbgg/veranstaltungen/praeventionstag/2025/artikel.1580093.php">Berliner Präventionstag 2025 - Berlin.de</a></p>
+    </div>
+
+    <h3>November</h3>
+    <div class="event">
+      <p class="date">04.11.2025 | 11:30–12:15</p>
+      <p><strong>[Grundlagen]</strong> KI-Tools in der Jugendsozialarbeit einsetzen – wie und wofür? | NeMe-Lunchtalk, siehe oben!</p>
+    </div>
+    <div class="event">
+      <p class="date">5. November 2025, 15:00 – 16:00</p>
+      <p><strong>Online-Veranstaltung</strong> „Radikalisierung im Netz“ mit Information zu Täterstrategien und Beratungsangeboten (NRW) | Veranstaltung des Landeskriminalamts NRW / Kriminalprävention und Opferschutz</p>
+      <p><i class="fas fa-link icon"></i> <a href="https://www.lernen-digital.nrw/online-angebot-radikalisierung-im-netz">Online-Angebot: Radikalisierung im Netz</a></p>
+    </div>
+    <div class="event">
+      <p class="date">6. November 2025, 19:00 – 20:00</p>
+      <p><strong>Online-Workshop:</strong> „Social Media und Bodyshaming“ mit Fokus auf Internettrends und medienpädagogische Perspektiven | Veranstaltung des Kinderschutzbunds NRW e.V.</p>
+      <p><i class="fas fa-link icon"></i> <a href="https://www.lernen-digital.nrw/online-angebot-social-media-und-bodyshaming">Online-Angebot: Social Media und Bodyshaming</a></p>
+    </div>
+    <div class="event">
+      <p class="date">18. + 20. November 2025, 09:00 – 13:00</p>
+      <p><strong>Fortbildung</strong> „Digitale Kommunikation mit jungen Menschen - Verstehen, Erreichen, Gestalten“ | Veranstaltung der LKJ Baden-Württemberg</p>
+      <p><i class="fas fa-map-marker-alt icon"></i> Anmeldung bis 12.11.25. Es wird eine Teilnahmegebühr von 40€ erhoben.</p>
+      <p><i class="fas fa-link icon"></i> <a href="https://eveeno.com/digitale_kommunikation">Fortbildung: Verstehen. Erreichen. Gestalten</a></p>
+    </div>
+    <div class="event">
+      <p class="date">19.11.2025 | 11:30 – 12:15</p>
+      <p><strong>[DigitaleGewalt]</strong> COMs und der Fall „764“ – Onlinegruppen, die zur Anstiftung von selbstverletzendem Verhalten und Cybergrooming dienen | NeMe-Lunchtalk, siehe oben!</p>
+    </div>
+
+    <p>Die hier aufgelistete Auswahl an Veranstaltungen und Ressourcen stellt keine Bewertung dar – sie ist lediglich aufgrund ihrer Relevanz für die digitale und hybride Arbeit in der Jugendsozialarbeit ausgewählt.</p>
+  </div>
+
+  <!-- Kontakt & Feedback -->
+  <div class="box info">
+    <h2><i class="fas fa-envelope icon"></i> Kontakt & Feedback</h2>
+    <p>Wir wünschen Euch und Ihnen Freude und relevante Erkenntnisse sowie einen guten Austausch mit Kolleg*innen. Hinweise zu Ressourcen, Projekten oder Veranstaltungen nehmen wir für die Aufnahme in den Ressourcen-Pool sowie ggf. in einem kommenden Info-Mailing gern auf:</p>
+    <p>
+      <i class="fas fa-user icon"></i> <strong>Noah:</strong> <a href="mailto:n.leichner@minor-kontor.de">n.leichner@minor-kontor.de</a><br>
+      <i class="fas fa-user icon"></i> <strong>Laura:</strong> <a href="mailto:l.ballaschk@minor-kontor.de">l.ballaschk@minor-kontor.de</a>
+    </p>
+    <p>Auch für alle Fragen rund um Digitale Lebenswelten in der (aufsuchenden) Jugendsozialarbeit stehen wir gern zur Verfügung und suchen mit Euch gemeinsam Lösungen oder gute Ansprechpartner*innen!</p>
+    <p>Mit herzlichen Grüßen aus der Fachstelle „Neue Medien in der Jugendsozialarbeit“</p>
+    <p>Noah und Laura</p>
+    <p><i>Das Projekt „Fachstelle Neue Medien in der Jugendsozialarbeit“ wird gefördert und unterstützt durch die Landeskommission Berlin gegen Gewalt sowie durch die Senatsverwaltung für Bildung, Jugend und Familie.</i></p>
+    <p><i>Wenn Sie keine weiteren Nachrichten von Minor / der Fachstelle NeMe erhalten möchten, schicken Sie eine kurze E-Mail an l.ballaschk@minor-kontor.de</i></p>
+    <p><i class="fas fa-info-circle icon"></i> Die Teilnahme an den Veranstaltungen der Fachstelle NeMe ist nur möglich durch den Besuch der Seite des Anbieters Zoom. Die Erstellung eines Accounts ist nicht notwendig. Die Teilnahme ist auch ohne Anmeldung und ohne Installation einer App möglich. Es gelten die dort aufgeführten Datenschutzhinweise. Weitere Informationen zum Datenschutz bei Minor finden sich unter <a href="https://minor-kontor.de/datenschutz/">https://minor-kontor.de/datenschutz/</a></i></p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p><i class="fas fa-file-alt icon"></i> Infopost – Herbst 2025</p>
+  </footer>
 </body>
 </html>
